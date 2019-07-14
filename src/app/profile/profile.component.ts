@@ -12,8 +12,12 @@ import { from } from 'rxjs';
 export class ProfileComponent implements OnInit {
   profile: Profile;
   username: string;
+
+
+
   // tslint:disable-next-line: no-shadowed-variable
-  constructor(private ProfileService: ProfileService) { }
+  constructor(private ProfileService: ProfileService) {
+   }
   findProfile() {
     this.ProfileService.updateProfile(this.username);
     this.ProfileService.profileRequest();
