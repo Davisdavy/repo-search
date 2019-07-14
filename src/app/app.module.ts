@@ -4,14 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { RouterModule, Routes } from '@angular/router';
+import {RoutingModule} from './routing/routing.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { ProfileComponent } from './profile/profile.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProfileService } from './services/profile.service';
 import { HomeComponent } from './home/home.component';
 import { PageErrorComponent } from './page-error/page-error.component';
 import { RepositoryComponent } from './repository/repository.component';
+import { DateCountPipe } from './date-count.pipe';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -25,7 +28,7 @@ const routes: Routes = [
     HomeComponent,
     PageErrorComponent,
     RepositoryComponent,
-
+    DateCountPipe,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,7 @@ const routes: Routes = [
     HttpClientModule,
     NgProgressModule,
     NgProgressHttpModule,
+    RoutingModule,
     RouterModule,
     FormsModule
   ],

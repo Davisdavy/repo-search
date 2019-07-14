@@ -71,11 +71,9 @@ export class ProfileService {
                 }
               );
             });
-
         return promise;
-
           }
           updateProfile(username: string) {
             this.username = username;
-          }
+    }
 }
