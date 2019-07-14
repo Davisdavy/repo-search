@@ -4,20 +4,21 @@ import { Repo } from '../repo';
 @Component({
   selector: 'app-repository',
   templateUrl: './repository.component.html',
-  providers:[ProfileService],
+  providers: [ProfileService],
   styleUrls: ['./repository.component.css']
 })
 export class RepositoryComponent implements OnInit {
   username: string;
     repo: Repo;
-  constructor(private ProfileService: ProfileService) {
+  // tslint:disable-next-line: no-shadowed-variable
+  constructor(private ProfileService: ProfileService) {}
     findProfile() {
 
       this.ProfileService.updateProfile(this.username);
       this.ProfileService.repoRequest();
       this.repo = this.ProfileService.repo;
     }
-   }
+
 
   ngOnInit() {
   }

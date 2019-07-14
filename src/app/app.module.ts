@@ -31,9 +31,10 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgProgressModule.forRoot(),
+    NgProgressModule,
     NgProgressHttpModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
