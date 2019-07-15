@@ -2,3 +2,19 @@ a{
    text-decoration: none;
    color: #fff;
 }
+
+button{
+   background: none;
+   width: 50%;
+   border: 1px solid rgb(196, 187, 187);
+   position: relative;
+   top: 10vh;
+   border-radius: 5%;
+}
+.sub-container{
+    text-align: center;
+}
+button:hover{
+    color: black;
+    background-color: rgb(75, 71, 71);
+}
