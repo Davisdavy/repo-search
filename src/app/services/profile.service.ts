@@ -13,8 +13,8 @@ export class ProfileService {
 
    constructor(private http: HttpClient) {
     this.profile = new Profile('', '', '', '', '', 0, 0, 0, new Date());
-    this.repo = new Repo('', '', '');
     this.username = '';
+    this.repo = new Repo('', '', '');
     }
     profileRequest() {
       interface ApiResponse {
