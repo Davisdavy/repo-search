@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 |Input   | Output |
 | ------------- | ------------- |
 | Valid Github Profile name   | Users profile detail,photo  |
-| Invalid Github Profile name | Best fit of the user name's repo |
+| Invalid Github Profile name | Best fit of the user name's repo but error found in the profile name |
 
 ## Desktop view
 
