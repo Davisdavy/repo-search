@@ -14,6 +14,13 @@
 chrome-profiler-events.json
 speed-measure-plugin.json
 
+#apiUrl
+export const environment = {
+  production: false,
+  apiUrl: 'https://api.github.com/users/',
+  apiRepos: '/repos?access_token=b2d42b9843f02d4741baff6642386107b2920151',
+  apiKey: '?access_token=b2d42b9843f02d4741baff6642386107b2920151'
+};
 # IDEs and editors
 /.idea
 .project
