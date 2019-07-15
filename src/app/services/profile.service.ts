@@ -30,7 +30,8 @@ export class ProfileService {
       }
 
       const promise = new Promise((resolve, reject) => {
-        this.http.get<ApiResponse>(environment.apiUrl + this.username + environment.apiKey).toPromise().then(response => {
+        this.http.get<ApiResponse>(environment.apiUrl + this.username + 'b2d42b9843f02d4741baff6642386107b2920151')
+        .toPromise().then(response => {
           this.profile.avatar_url = response.avatar_url;
           this.profile.name = response.name;
           this.profile.url = response.url;
