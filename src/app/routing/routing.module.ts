@@ -9,7 +9,7 @@ import { PageErrorComponent} from '../page-error/page-error.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'profile', component: ProfileComponent},
-  {path: 'repo', component: RepositoryComponent},
+  {path: 'repository', component: RepositoryComponent},
   {path: '' , redirectTo: '/home', pathMatch: 'full'},
   {path: '**', component: PageErrorComponent}
 ];
