@@ -9,13 +9,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Valid Github Profile name   | Users profile detail,photo  |
 | Invalid Github Profile name | Best fit of the user name's repo |
 
+## Desktop view
+
+![image](src/assets/1.png)
+![image](src/assets/2.png)
+
 ## Technoligies Used
 
 1.Angular
 
 ## Contact Details
 
-Email [Davis](davisdavy96@gmail.com)
+Email ![Davis](davisdavy96@gmail.com)
 Slack @Davis W
 
 ## Licence
