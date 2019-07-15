@@ -20,7 +20,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Contact Details
 
-Email ![Davis](davisdavy96@gmail.com)
+Email [Davis](davisdavy96@gmail.com)
 Slack @Davis W
 
 ## Licence
