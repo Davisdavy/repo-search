@@ -7,7 +7,7 @@
   <div class="form">
     <form (ngSubmit)='findProfile()' #searchForm='ngForm'>
          <div class="form-group">
-           <input type="text" class="form-control" placeholder="search  git users with username" [(ngModel)] ="username" name="username" (keyup)="findProfile()">
+           <input type="text" class="form-control" placeholder="User's  username" [(ngModel)] ="username" name="username" (keyup)="findProfile()">
         </div>
        </form>
   </div>
@@ -27,7 +27,7 @@
               
           </div>
           <div class="col">
-              <label for="Repos"> Repos:{{profile.public_repos}}</label><br>
+              <label for="Repos"> Repositories:{{profile.public_repos}}</label><br>
               <div class="label label-default">This account was created on {{profile.created_at}}</div>
               <div class="label label-default">{{profile.createdDate|dateCount}} days ago</div>
   
@@ -35,7 +35,7 @@
          </div>
   
      <div class="row3">
-      <button class="home"><a routerLink='/home' routerLinkActive='active'>Go Back Home</a></button>
+      <button class="home"><a routerLink='/home' routerLinkActive='active'><--Home</a></button>
     </div>
   
   </div>

@@ -1,0 +1,36 @@
+h2{
+    color: #fff;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+.line{
+    border: 1px solid #fff;
+    background: none;
+}
+.line1{
+    border: 1px solid #fff;
+    background: none;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    background: none;
+    border: 1px solid #fff;
+
+}
+.home{
+    position : absolute;
+    left: 40%;
+}

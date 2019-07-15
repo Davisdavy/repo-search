@@ -1,21 +1,27 @@
 <div class="container">
     <ul class="bar">
-      <li>Git-hub Search</li>
+      <li>Search</li>
+      <div class="line"></div>
     </ul>
     <ng-progress></ng-progress>
     <form (ngSubmit)='findProfile()' #searchForm='ngForm'>
          <div class="form-group">
-           <input type="text" class="form-control" placeholder="search  git repos with username" [(ngModel)] ="username" name="username" (keyup)="findProfile()">
+           <input type="text" class="form-control" placeholder=" Git-Hub username" [(ngModel)] ="username" name="username" (keyup)="findProfile()">
          </div>
        </form>
-  <h2 appHighlight>Repository</h2>
-      <!-- <div class="row" *ngFor="let repo of Repos let i=index" > -->
-        <p>Repo name:{{repo?.name}}</p>
-        <p><a href="{{repos?.html_url}}" class="btn btn-sm btn-success pull-right">View this Repo</a></p>
-        <p>Repo Description:{{repo?.description}}</p>
-  
-  <!-- </div> -->
+  <h2 appHighlight>Repos</h2>
+  <div class="line1"></div>
+      <div class="row">
+        <p>Repository name:{{repo?.name}}</p>
+      <div class="col">
+        <p><a href="{{repos?.html_url}}" class="btn btn-sm btn-primary pull-right">View this Repo</a></p>
+      </div>
+      <div class="col">
+        <p>Repository description:{{repo?.description}}</p>
+      </div>
+  </div>
+
   </div>
   <div>
-   <button class="home"><a routerLink='/home' routerLinkActive='active'>GO Back Home</a></button>
+   <button class="home"><a routerLink='/home' routerLinkActive='active'><-- Home</a></button>
   </div>
