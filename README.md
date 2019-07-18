@@ -16,7 +16,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Technoligies Used
 
-1.Angular
+1.Angular 7
+2.HTML
+3.CSS
+4.Typescript
+5.Json
 
 ## Contact Details
 
